@@ -1,13 +1,33 @@
+/* CSS resets */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+/* END CSS resets */
 
+/* global CSS */
 body {
     background-color: #d9dcd6;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #d9dcd6;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* END global CSS */
+
+/* Header and nested Nav */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -40,21 +60,9 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
+/* END Header and nested Nav */
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #d9dcd6;
-    text-decoration: underline;
-}
-
-p {
-    font-size: 16px;
-}
-
+/* section hero w/ background */
 .hero {
     height: 800px;
     width: 100%;
@@ -63,7 +71,9 @@ p {
     background-size: cover;
     background-position: center;
 }
+/* END section hero w/ background */
 
+/* main content img floats */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -73,13 +83,35 @@ p {
     float: right;
     margin-left: 25px;
 }
+/* END main content img floats */
 
+/* main content container and children  */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+.marketing-services {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.marketing-services img  {
+    max-height: 200px;
+}
+
+.marketing-services h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* END main content container and children  */
+
+/* aside and children */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -106,25 +138,9 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+/* END aside and children */
 
-.marketing-services {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.marketing-services img  {
-    max-height: 200px;
-}
-
-.marketing-services h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* footer */
 .footer {
     padding: 30px;
     clear: both;
@@ -135,3 +151,4 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+/* END footer */
