@@ -10,6 +10,6 @@ company called Horiseon, which provides online marketing services.
 
 The following image demonstrates the web application's appearance and functionality:
 
-![Horiseon Thumbnail](./Assets/01-html-css-git-homework-demo.png)
+![Horiseon Thumbnail](./assets/images/01-html-css-git-homework-demo.png)
 
 ---
